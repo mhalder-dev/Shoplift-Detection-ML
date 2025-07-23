@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Product', 'normal', 'shoplifting']
+
+roboflow:
+  workspace: rex-jy68d
+  project: theft-detection-ksxxh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rex-jy68d/theft-detection-ksxxh/dataset/1
